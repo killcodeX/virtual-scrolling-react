@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Building a Virtual Scrolling Web Application using Ionic Framework and React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this assignment, you will build a web application using Ionic Framework and React that fetches data from a REST API provided by JSONPlaceholder and implements virtual scrolling to improve performance.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Requirements:
 
-### `npm start`
+* The home page should display a list of posts returned by the API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Implement virtual scrolling to improve the performance of the list when scrolling through large numbers of items. (you can follow this).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Clicking on a post should display a detailed view of the post including comments. comments.
 
-### `npm test`
+* The application should have at least two pages: one for the list view and one for the detailed view.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Use modern coding practices, such as component-based architecture and asynchronous programming.
 
-### `npm run build`
+* Use react hooks and functional components where possible.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Use MobX or redux for state management if necessary.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deliverables:
 
-### `npm run eject`
+* A working web application that meets the requirements listed above.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* A README.md file that includes instructions for running the application, a description of the application’s features, and any additional information that you think is relevant.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Bonus points for additional features or creative implementations.
